@@ -17,16 +17,17 @@ Centre of the arena as (0,0)
 #define MAX_Y 2000 //Length of arena from -MAX_Y to MAX_Y
 #define INF 9999999999.0 //Time to assign if bot is moving in correct direction. Such that Quad ignores it.
 #define QUAD_SPEED 5.0 //Speed of the Quad
-#define ITER 1  //Check for next n iterations.
+#define ITER 3  //Check for next n iterations.
 #define PENALTY 50
-/**********************************
-Object to define velocity
-**********************************/
+
 struct Point{
 		float x;
 		float y;
 };
 
+/**********************************
+Object to define velocity
+**********************************/
 class Velocity{
 
 	float speed_x;  //Magnitude  of velocity in X direction
