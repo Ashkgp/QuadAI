@@ -29,7 +29,7 @@ struct Point{
 
 class Velocity{
 
-	float speed_x;  //Magnitude of velocity in X direction
+	float speed_x;  //Magnitude  of velocity in X direction
 	float speed_y;  //Magnitude of velocity in Y direction
 	public :
 	//Constructors
