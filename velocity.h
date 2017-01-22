@@ -19,7 +19,7 @@ class Velocity{
 
 	Velocity(Velocity *vel){
 		this->speed_x = vel->getVelocity('x');
-		this->speed_y = vel -> speed_y;
+		this->speed_y = vel ->getVelocity('y');
 	}
 	/*********************************************************
 	Function returns value of the velocity component of 
